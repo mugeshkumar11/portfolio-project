@@ -11,3 +11,158 @@
     padding-left: 15px;
     padding-right: 15px;
 }
+.header{
+margin-bottom:10px;
+}
+.headerflex{
+	display:flex;
+	justify-content:space-between;
+	margin-top:15px;
+}
+.headerlogo h2{
+	font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+	padding-top:7px;
+	
+}
+.headerlogo a{
+	text-decoration:none;
+}
+
+.navbar ul{
+	display:flex;
+   
+}
+.navbar li{
+	
+    padding:15px 30px;
+    font-size: 16px;
+   
+}
+.navbar a{
+	text-decoration:none;
+}
+.about{
+	padding-top:20px;
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.aboutheading{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.aboutheading h2{
+	font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+}
+.abouthrline{
+    border-bottom:3px solid #fdbf2b;
+	width:15%;
+	margin-left:42.5%;
+	padding-top:5px;
+}
+.aboutflex{
+	display:flex;
+	width:100%;
+	margin-top:30px;
+}
+.aboutimage{
+	width:50%;
+}
+.abouttext{
+	width:50%;
+	padding-top:20px;
+}
+.aboutimage img{
+	width:80%;
+	height:auto;
+	padding-bottom:30px;
+	border-radius:10px;
+}
+.imagetext{
+	padding-top:15px;
+}
+.imagetext h4{
+	font-size: 20px;
+    letter-spacing: 1px;
+	padding-bottom:20px;
+	font-family: "Poppins", sans-serif;
+}
+.abouttext h3{
+	font-size: 25px;
+    letter-spacing: 1px;
+	padding-bottom:10px;
+	font-family: "Poppins", sans-serif;
+}
+.abouttext p{
+	font-size: 14px;
+    letter-spacing: 1px;
+	line-height:20px;
+	font-family: "open-sans", sans-serif;
+}
+.imagetext span {
+	font-size:20px;
+	font-weight: 600;
+}
+.skils{
+	padding-top:20px;
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	padding-bottom:20px;
+}
+.skilsheading{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.skilsheading h2{
+	font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+}
+.skilshrline{
+    border-bottom:3px solid #fdbf2b;
+	width:15%;
+	margin-left:42.5%;
+	padding-top:5px;
+}
+.skilsflex{
+	display:flex;
+	padding-top:20px;
+}
+.skilimage{
+	width:20%;
+	padding-left:20px;
+}
+.skilimage img{
+	width:100%;
+	height:100%;
+	padding:30px 30px;
+	border-radius:10px;
+    background-color:#fff;
+}
+.resume{
+	padding-top:20px;
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+}
+.resumeheading{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.resumeheading h2{
+	font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+}
+.resumehrline{
+    border-bottom:3px solid #fdbf2b;
+	width:15%;
+	margin-left:42.5%;
+	padding-top:5px;
+}
