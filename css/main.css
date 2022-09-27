@@ -396,3 +396,128 @@
 	margin-left:42.5%;
 	padding-top:5px;
 }
+.workflex{
+	display:flex;
+	padding-top:20px;
+	text-align:center;
+}
+.bocorwork{
+	width:33.33%;
+	padding-left:40px;
+}
+.mambawork{
+	width:33.33%;
+	padding-left:40px;
+}
+.jswork{
+	width:33.33%;
+	padding-left:40px;
+}
+.bocorwork img{
+	width:100%;
+	height:80%;
+	border-radius:10px;
+}
+.mambawork img{
+	width:100%;
+	height:80%;
+	border-radius:10px;
+}
+.jswork img{
+	width:100%;
+	height:78%;
+	border-radius:10px;
+}
+.bocorwork h3{
+	font-size: 32px;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+	color:  #2c1567;
+	padding-bottom:10px;
+	padding-top:15px
+}
+.bocorwork button{
+	padding:8px 28px;
+	background-color: #3EC1D5;
+	border-radius:10px;
+	border:none;
+}
+.bocorwork a{
+	text-decoration:none;
+	color:#fff;
+}
+.mambawork h3{
+	font-size: 32px;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+	color:  #2c1567;
+	padding-bottom:10px;
+	padding-top:15px
+}
+.mambawork button{
+	padding:8px 28px;
+	background-color: #3EC1D5;
+	border-radius:10px;
+	border:none;
+}
+.mambawork a{
+	text-decoration:none;
+	color:#fff;
+}
+.jswork h3{
+	font-size: 32px;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+	color:  #2c1567;
+	padding-bottom:10px;
+	padding-top:15px
+}
+.jswork button{
+	padding:8px 28px;
+	background-color: #3EC1D5;
+	border-radius:10px;
+	border:none;
+}
+.jswork a{
+	text-decoration:none;
+	color:#fff;
+}
+.contact{
+	padding-top:20px;
+    background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
+	padding-bottom:50px;
+}
+.contactheading{
+	text-align:center;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.contactheading h2{
+	font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+	font-family: "Poppins", sans-serif;
+	color: #444;
+}
+.contacthrline{
+    border-bottom:3px solid #2c1567;
+	width:15%;
+	margin-left:42.5%;
+	padding-top:5px;
+}
+.contactflex{
+	display:flex;
+	padding-top:20px;
+}
+.contacticons{
+display:flex;
+}
+.addresscontact i{
+	font-size: 32px;
+    letter-spacing: 1px;
+	background-color:red;
+	height: 10%;
+    width: 10%;
+	font-family: "Poppins", sans-serif;
+	color: #444;
+}
