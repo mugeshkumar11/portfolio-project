@@ -56,6 +56,7 @@
 }
 .navbar li:hover a{
 	color: #3ec1d5;
+	 transition:all 0.5s;
 }
 .banner{
 	 position: relative;
@@ -97,6 +98,16 @@
     margin-bottom: 50px;
     font-size: 26px;
     font-family: "Poppins", sans-serif;
+}
+.bannericon a{
+	font-size:40px;
+	letter-spacing:60px;
+	color:#fff;
+	display: inline-block;
+}
+.bannericon a:hover i {
+   color:#3ec1d5;
+   transition:all 0.5s;
 }
 .about{
 	padding-top:20px;
@@ -527,7 +538,7 @@ display:flex;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	margin-left:20px;
-	padding:50px 20px 20px 20px;
+	padding:40px 20px 20px 20px;
 }
 .listcontact2{
 	width:25%;
@@ -535,7 +546,7 @@ display:flex;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	margin-left:20px;
-    padding:50px 20px 20px 20px;
+    padding:40px 20px 20px 20px;
 }
 .listcontact3{
 	width:25%;
@@ -543,14 +554,14 @@ display:flex;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	margin-left:20px;
-	padding:50px 20px 20px 20px;
+	padding:40px 20px 20px 20px;
 }
 .addresscontact i{
 	font-size: 32px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
 	color: #3EC1D5;
-	line-height: 24px;
+	
 	
 }
 .addresscontact h3{
@@ -558,6 +569,7 @@ display:flex;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
 	color: #444;
+	line-height: 20px;
 }
 .listcontact a{
 	font-size: 32px;
