@@ -85,7 +85,7 @@
 .bannercontent{
 	position:absolute;
 	top:40%;
-	right:10%;
+	right:4%;
 }
 .bannercontent h1{
 	font-size: 64px;
@@ -148,10 +148,10 @@
 	padding-top:30px;
 }
 .aboutimage img{
-	width:80%;
-	height:auto;
+	width:90%;
+	height:90%;
 	padding-bottom:30px;
-	border-radius:10px;
+	border-radius:50%;
 }
 .imagetext{
 	padding-top:15px;
@@ -650,4 +650,35 @@ display:flex;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
 	color: #444;
+}
+.legal {
+    background-color: #587187;
+}
+.legal-flex {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    padding-top: 30px;
+}
+.copyright h3{
+  font-size: 14px;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+.copyright span{
+    font-weight: bolder;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+}
+.copyright h4{
+    color: #fff;
+    padding-top: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.copyright a{
+    text-decoration: none;
+    color: #9eccf4;
 }
