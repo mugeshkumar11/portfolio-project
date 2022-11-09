@@ -4,6 +4,12 @@
     box-sizing: border-box;
     
 }
+.container{
+	width: 100%;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 .header{
     background-color: #2c1567;
     height:68px;
@@ -13,6 +19,7 @@
     right: 0;
     left: 0;
 	z-index:979;
+	
 }
 .headerflex{
 	display:flex;
@@ -32,27 +39,262 @@
 .headerlogo span{
 	color: #3EC1D5;
 }
+.navbar{
+	
+}
 .navbar ul{
-	display:flex;
-   
+position: absolute;
+top: 11.5vh;
+right: 100%;
+width: 75vh;
+background-color: #2c1567;
+flex-direction: column;
+height: 75vh;
+text-align: center;
+transform: translateX(0%);
+
 }
 .navbar li{
+	padding-top: 4vh;
+	padding-bottom: 5vh;
 	
-    margin:25px 30px;
-    font-size: 16px;
-	font-family: "Poppins", sans-serif;
-   
+	
 }
 .navbar a{
 	text-decoration:none;
-	color:#fff;
-	transition: .3s;
+	color: #fff;
+	
 }
 .navbar li:hover a{
 	color: #3ec1d5;
 	 transition:all 0.5s  ease;
 	 transition: .2s;
 }
+.arrow{
+	display: block;
+	height: 5.5vh;
+	width: 45px;
+	transform: translateY(65%);
+	
+}
+.line1,.line2,.line3{
+	height: 25%;
+	width: 100%;
+	margin-top: 2px;
+	background-color: #fff;
+	border-radius:2px;
+	
+}
+.line1{
+	background-color:#fff;
+}
+.line3 {
+	background-color:#fff;
+}
+.display{
+	transform: translateX(0%);
+}
+.toggle1{
+	transform: rotate(40deg)translate(8px ) ;
+}
+.toggle2{
+	display: none;
+}
+.toggle3{
+	transform: rotate(-40deg)translate(8px) ;
+}
+.arrow:hover .toggle1{
+	background-color: red;
+}
+.arrow:hover .toggle3{
+	background-color: red;
+}
+
+
+@media (min-width:768px){
+	.container{
+		width: 90%;
+		margin: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.header{
+		background-color: #2c1567;
+		height:68px;
+		position:fixed;
+		width:100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index:979;
+		
+	}
+	.headerflex{
+		display:flex;
+		justify-content:space-between;
+	}
+	.headerlogo h2{
+		font-size: 32px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-family: "Poppins", sans-serif;
+		padding-top:20px;
+	}
+	.headerlogo a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.headerlogo span{
+		color: #3EC1D5;
+	}
+	.navbar{
+		
+	}
+	.navbar ul{
+	position: absolute;
+	top: 11.20vh;
+	right: 100%;
+	width: 90vh;
+	background-color: #2c1567;
+	flex-direction: column;
+	height: 75vh;
+	text-align: center;
+	transform: translateX(0%);
+	
+	}
+	.navbar li{
+		padding-top: 4vh;
+		padding-bottom: 5vh;
+		
+		
+	}
+	.navbar a{
+		text-decoration:none;
+		color: #fff;
+		
+	}
+	.navbar li:hover a{
+		color: #3ec1d5;
+		 transition:all 0.5s  ease;
+		 transition: .2s;
+	}
+	.arrow{
+		display: block;
+		height: 5.5vh;
+		width: 45px;
+		transform: translateY(65%);
+		
+	}
+	.line1,.line2,.line3{
+		height: 25%;
+		width: 100%;
+		margin-top: 2px;
+		background-color: #fff;
+		border-radius:2px;
+		
+	}
+	.line1{
+		background-color:#fff;
+	}
+	.line3 {
+		background-color:#fff;
+	}
+	.display{
+		transform: translateX(0%);
+	}
+	.toggle1{
+		transform: rotate(40deg)translate(8px ) ;
+
+	}
+	.toggle2{
+		display: none;
+	}
+	.toggle3{
+		transform: rotate(-40deg)translate(8px) ;
+	}
+	.arrow:hover .toggle1{
+		background-color: red;
+	}
+	.arrow:hover .toggle3{
+		background-color: red;
+	}
+	
+}	
+@media (min-width:1024px){
+	.container{
+		width: 83%;
+		margin: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.header{
+		background-color: #2c1567;
+		height:68px;
+		position:fixed;
+		width:100%;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index:979;
+	}
+	.headerflex{
+		display:flex;
+		justify-content:space-between;
+	}
+	.headerlogo h2{
+		font-size: 32px;
+		font-weight: 600;
+		letter-spacing: 1px;
+		font-family: "Poppins", sans-serif;
+		padding-top:20px;
+	}
+	.headerlogo a{
+		text-decoration:none;
+		color:#fff;
+	}
+	.headerlogo span{
+		color: #3EC1D5;
+	}
+	.navbar ul{
+		display:flex;
+		position:absolute;
+	top: 0vh;
+	right:50%;
+	width: 0vh;
+	flex-direction:unset;
+	height:0vh;
+	text-align:unset;
+	transform:none;
+	background-color: unset;
+	
+	   
+	}
+	.navbar li{
+		
+		margin:25px 30px;
+		font-size: 16px;
+		transform: translateY(-40%);
+		font-family: "Poppins", sans-serif;
+	   
+	}
+	.navbar a{
+		text-decoration:none;
+		color:#fff;
+		transition: .3s;
+	}
+	.navbar li:hover a{
+		color: #3ec1d5;
+		 transition:all 0.5s  ease;
+		 transition: .2s;
+	}
+	.arrow{
+		display: none;
+	}
+	.display{
+		display: none;
+	}
+}
+
 /*banner start */
 .container{
 	width: 100%;
@@ -146,11 +388,11 @@
 	}
 	.bannercontent{
 		position:absolute;
-		top:40%;
+		top:60%;
 		right:4%;
 	}
 	.bannercontent h1{
-		font-size: 64px;
+		font-size: 50px;
 		font-weight: 700;
 		line-height: 56px;
 		color: #fff;
@@ -179,7 +421,7 @@
 }
 @media (min-width:1024px){
 	.container{
-		width: 100%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -212,7 +454,7 @@
 		right:4%;
 	}
 	.bannercontent h1{
-		font-size: 64px;
+		font-size: 58px;
 		font-weight: 700;
 		line-height: 56px;
 		color: #fff;
@@ -414,7 +656,7 @@
 }
 @media (min-width:1024px){
 	.container{
-		min-width: 87%;
+		min-width: 83%;
 		margin: auto;
 		padding-left: 15px;
 	    padding-right: 15px;
@@ -629,7 +871,7 @@ padding-right: 15px;
 }
 @media (min-width:1024px){
 	.container{
-		width: 87%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 	    padding-right: 15px;
@@ -723,6 +965,7 @@ padding-right: 15px;
 	
 }
 .resumeflex{
+
 }
 .resumecontent1{
 	width:100%;
@@ -896,7 +1139,7 @@ padding-right: 15px;
 	}
 	.resumecontent2{
 		width:50%;
-		padding-left:10px;
+		padding-left:30px;
 		
 	}
 	.resumesslc{
@@ -906,27 +1149,20 @@ padding-right: 15px;
 		padding-bottom:20px;
 	}
 	.resumesslc h2{
-		font-size: 32px;
+		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumesslc h3{
-		font-size: 25px;
+		font-size: 22px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumesslc h4{
-		font-size: 20px;
-		letter-spacing: 1px;
-		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
-		padding-bottom:10px;
-	}
-	.resumesslc p{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
@@ -934,33 +1170,33 @@ padding-right: 15px;
 		padding-bottom:10px;
 	}
 	.resumesslc p{
-		font-size: 18px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-family: "Poppins", sans-serif;
+		color:  #2c1567;
+		padding-bottom:10px;
+	}
+	.resumesslc p{
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 	}
 	.resumehsc h2{
-		font-size: 32px;
+		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumehsc h3{
-		font-size: 25px;
+		font-size: 22px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumehsc h4{
-		font-size: 20px;
-		letter-spacing: 1px;
-		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
-		padding-bottom:10px;
-	}
-	.resumehsc p{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
@@ -968,34 +1204,34 @@ padding-right: 15px;
 		padding-bottom:10px;
 	}
 	.resumehsc p{
-		font-size: 18px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-family: "Poppins", sans-serif;
+		color:  #2c1567;
+		padding-bottom:10px;
+	}
+	.resumehsc p{
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumecollege h2{
-		font-size: 32px;
+		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumecollege h3{
-		font-size: 25px;
+		font-size: 22px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumecollege h4{
-		font-size: 20px;
-		letter-spacing: 1px;
-		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
-		padding-bottom:10px;
-	}
-	.resumecollege p{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
@@ -1003,21 +1239,28 @@ padding-right: 15px;
 		padding-bottom:10px;
 	}
 	.resumecollege p{
-		font-size: 18px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-family: "Poppins", sans-serif;
+		color:  #2c1567;
+		padding-bottom:10px;
+	}
+	.resumecollege p{
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumetraining  h3{
-		font-size: 32px;
+		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
 		padding-bottom:10px;
 	}
 	.resumetraining h4{
-		font-size: 18px;
+		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
@@ -1026,7 +1269,7 @@ padding-right: 15px;
 }
 @media (min-width:1024px){
 	.container{
-		width: 87%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 	    padding-right: 15px;
@@ -1251,7 +1494,7 @@ padding-right: 15px;
 }
 .jswork img{
 	width:100%;
-	height:78%;
+	height:75%;
 	border-radius:10px;
 }
 .bocorwork h3{
@@ -1355,20 +1598,24 @@ padding-right: 15px;
 	}
 	.workflex{
 		display:flex;
+		flex-wrap: wrap;
 		padding-top:20px;
 		text-align:center;
 	}
 	.bocorwork{
-		width:33.33%;
+		width:50%;
 		padding-left:40px;
+		padding-top: 30px;
+		
 	}
 	.mambawork{
-		width:33.33%;
+		width:50%;
 		padding-left:40px;
 	}
 	.jswork{
-		width:33.33%;
+		width:50%;
 		padding-left:40px;
+		padding-top: 80px;
 	}
 	.bocorwork img{
 		width:100%;
@@ -1382,8 +1629,9 @@ padding-right: 15px;
 	}
 	.jswork img{
 		width:100%;
-		height:78%;
+		height:75%;
 		border-radius:10px;
+		
 	}
 	.bocorwork h3{
 		font-size: 32px;
@@ -1457,7 +1705,7 @@ padding-right: 15px;
 }
 @media (min-width:1024px){
 	.container{
-		width: 87%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 	    padding-right: 15px;
@@ -1493,6 +1741,7 @@ padding-right: 15px;
 	.bocorwork{
 		width:33.33%;
 		padding-left:40px;
+		
 	}
 	.mambawork{
 		width:33.33%;
@@ -1501,15 +1750,17 @@ padding-right: 15px;
 	.jswork{
 		width:33.33%;
 		padding-left:40px;
+		padding-top: 30px;
 	}
 	.bocorwork img{
 		width:100%;
-		height:80%;
+		height:78%;
 		border-radius:10px;
+		
 	}
 	.mambawork img{
 		width:100%;
-		height:80%;
+		height:78%;
 		border-radius:10px;
 	}
 	.jswork img{
@@ -1573,8 +1824,8 @@ padding-right: 15px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color:  #2c1567;
-		padding-bottom:10px;
-		padding-top:15px
+		padding-bottom:13px;
+		padding-top:10px
 	}
 	.jswork button{
 		padding:8px 28px;
@@ -1747,13 +1998,15 @@ display:flex;
 	}
 	.contactflex{
 		display:flex;
+		flex-wrap: wrap;
 		padding-top:20px;
+		margin-left: 30%;
 	}
 	.contacticons{
 	display:flex;
 	}
 	.addresscontact{
-		width:25%;
+		width:50%;
 		height:auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
@@ -1762,15 +2015,15 @@ display:flex;
 		padding-bottom:20px;
 	}
 	.listcontact{
-		width:25%;
+		width:50%;
 		height:auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		margin-left:20px;
-		padding:50px 20px 20px 20px;
+		padding:50px 20px 20px 10px;
 	}
 	.listcontact2{
-		width:25%;
+		width:50%;
 		height:auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
@@ -1778,7 +2031,7 @@ display:flex;
 		padding:50px 20px 20px 20px;
 	}
 	.listcontact3{
-		width:25%;
+		width:50%;
 		height:auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
@@ -1844,7 +2097,7 @@ display:flex;
 }
 @media (min-width:1024px){
 	.container{
-		width: 87%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 	    padding-right: 15px;
@@ -1875,6 +2128,8 @@ display:flex;
 	.contactflex{
 		display:flex;
 		padding-top:20px;
+		margin-left: 0px;
+		flex-wrap: nowrap;
 	}
 	.contacticons{
 	display:flex;
@@ -1887,6 +2142,7 @@ display:flex;
 		margin-left:20px;
 		padding-top:20px;
 		padding-bottom:20px;
+		margin-top: 20px;
 	}
 	.listcontact{
 		width:25%;
@@ -2050,7 +2306,7 @@ display:flex;
 }
 @media (min-width:1024px){
 	.container {
-		width: 87%;
+		width: 83%;
 		margin: auto;
 		padding-left: 15px;
 		padding-right: 15px;
