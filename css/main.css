@@ -74,7 +74,7 @@ transform: translateX(100%);
 	display: block;
 	height: 4vh;
 	width: 45px;
-	transform: translateY(55%);
+	transform: translateY(65%);
 	
 }
 .line1,.line2,.line3{
@@ -1066,6 +1066,7 @@ padding-right: 15px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
 	color:  #2c1567;
+	padding-top: 20px;
 	padding-bottom:10px;
 }
 .resumecollege h3{
@@ -2275,27 +2276,19 @@ display:flex;
     height: 100px;
     padding-top: 30px;
 }
-.copyright h3{
-  font-size: 14px;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-}
-.copyright span{
-    font-weight: bolder;
-    font-size: 14px;
-    font-family: "Open Sans", sans-serif;
-}
+
 .copyright h4{
     color: #fff;
     padding-top: 10px;
     text-align: center;
     line-height: 30px;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
 .copyright a{
     text-decoration: none;
     color: #9eccf4;
+	font-size: 23px;
 }
 @media (min-width:768px){
 	.container {
@@ -2313,27 +2306,19 @@ display:flex;
 		height: 100px;
 		padding-top: 30px;
 	}
-	.copyright h3{
-	  font-size: 14px;
-	  color: #fff;
-	  font-family: "Open Sans", sans-serif;
-	}
-	.copyright span{
-		font-weight: bolder;
-		font-size: 14px;
-		font-family: "Open Sans", sans-serif;
-	}
+	
 	.copyright h4{
 		color: #fff;
 		padding-top: 10px;
 		text-align: center;
 		line-height: 30px;
-		font-size: 16px;
+		font-size: 20px;
 		font-family: 'Times New Roman', Times, serif;
 	}
 	.copyright a{
 		text-decoration: none;
 		color: #9eccf4;
+		font-size: 23px;
 	}
 	
 }
@@ -2353,27 +2338,18 @@ display:flex;
 		height: 100px;
 		padding-top: 30px;
 	}
-	.copyright h3{
-	  font-size: 14px;
-	  color: #fff;
-	  font-family: "Open Sans", sans-serif;
-	}
-	.copyright span{
-		font-weight: bolder;
-		font-size: 14px;
-		font-family: "Open Sans", sans-serif;
-	}
 	.copyright h4{
 		color: #fff;
 		padding-top: 10px;
 		text-align: center;
 		line-height: 30px;
-		font-size: 16px;
+		font-size: 20px;
 		font-family: 'Times New Roman', Times, serif;
 	}
 	.copyright a{
 		text-decoration: none;
 		color: #9eccf4;
+		font-size: 23px;
 	}
 	
 }
