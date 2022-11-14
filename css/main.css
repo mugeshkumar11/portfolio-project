@@ -2184,7 +2184,7 @@ display:flex;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		margin-left:20px;
-		padding:50px 20px 20px 20px;
+		
 	}
 	.listcontact2{
 		width:100%;
@@ -2192,7 +2192,7 @@ display:flex;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		margin-left:20px;
-		padding:50px 20px 20px 20px;
+		margin-bottom: 20px;
 	}
 	.listcontact3{
 		width:100%;
@@ -2200,7 +2200,7 @@ display:flex;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		margin-left:20px;
-		padding:50px 20px 20px 20px;
+		margin-bottom: 20px;
 	}
 	.addresscontact i{
 		font-size: 32px;
