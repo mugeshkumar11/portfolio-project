@@ -25,23 +25,6 @@
 	display:flex;
 	justify-content:space-between;
 }
-.headerlogo h2{
-	font-size: 32px;
-    font-weight: 600;
-    letter-spacing: 1px;
-	font-family: "Poppins", sans-serif;
-	padding-top:20px;
-}
-.headerlogo a{
-	text-decoration:none;
-	color:#fff;
-}
-.headerlogo span{
-	color: #515aa4;
-}
-.navbar{
-	
-}
 .navbar ul{
 position: absolute;
 top: 8vh;
@@ -528,8 +511,10 @@ transform: translateX(100%);
 }
 .abouthrline{
     border-bottom:3px solid #2c1567;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
 	width:17%;
-	margin-left:41.5%;
 	padding-top:5px;
 }
 .aboutflex{
@@ -614,11 +599,14 @@ transform: translateX(100%);
 	.abouthrline{
 		border-bottom:3px solid #2c1567;
 		width:17%;
-		margin-left:41.5%;
+		display: inline-block;
+	justify-content: center;
+	text-align: center;
 		padding-top:5px;
 	}
 	.aboutflex{
 		display:flex;
+		justify-content: space-around;
 		width:100%;
 		margin-top:30px;
 		margin-bottom: 30px;
@@ -705,11 +693,14 @@ transform: translateX(100%);
 	.abouthrline{
 		border-bottom:3px solid #2c1567;
 		width:17%;
-		margin-left:41.5%;
+		display: inline-block;
+	justify-content: center;
+	text-align: center;
 		padding-top:5px;
 	}
 	.aboutflex{
 		display:flex;
+		justify-content: space-around;
 		width:100%;
 		margin-top:30px;
 	}
@@ -793,7 +784,9 @@ padding-right: 15px;
 .skilshrline{
     border-bottom:3px solid #2c1567;
 	width:15%;
-	margin-left:42.5%;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
 	padding-top:5px;
 }
 .skilsflex{
@@ -859,7 +852,9 @@ padding-right: 15px;
 	.skilshrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 	}
 	.skilsflex{
@@ -925,7 +920,9 @@ padding-right: 15px;
 	.skilshrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+	justify-content: center;
+	text-align: center;
 		padding-top:5px;
 	}
 	.skilsflex{
@@ -991,12 +988,11 @@ padding-right: 15px;
 .resumehrline{
     border-bottom:3px solid #2c1567;
 	width:35%;
-	margin-left:32%;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
 	padding-top:5px;
 	
-}
-.resumeflex{
-
 }
 .resumecontent1{
 	width:100%;
@@ -1082,7 +1078,9 @@ padding-right: 15px;
 	.resumehrline{
 		border-bottom:3px solid #2c1567;
 		width:27%;
-		margin-left:36.6%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 		
 	}
@@ -1175,7 +1173,9 @@ padding-right: 15px;
 	.resumehrline{
 		border-bottom:3px solid #2c1567;
 		width:20%;
-		margin-left:40%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 		
 	}
@@ -1272,7 +1272,9 @@ padding-right: 15px;
 .workhrline{
     border-bottom:3px solid #2c1567;
 	width:15%;
-	margin-left:42.5%;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
 	padding-top:5px;
 }
 .workflex{
@@ -1406,7 +1408,9 @@ padding-right: 15px;
 	.workhrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 	}
 	.workflex{
@@ -1547,7 +1551,9 @@ padding-right: 15px;
 	.workhrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 	}
 	.workflex{
@@ -1688,7 +1694,9 @@ padding-right: 15px;
 .contacthrline{
 	border-bottom:3px solid #2c1567;
 	width:15%;
-	margin-left:42.5%;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
 	padding-top:5px;
 }
 .contactflex{
@@ -1817,7 +1825,9 @@ i:hover{
 	.contacthrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 	}
 	.contactflex{
@@ -1948,7 +1958,9 @@ i:hover{
 	.contacthrline{
 		border-bottom:3px solid #2c1567;
 		width:15%;
-		margin-left:42.5%;
+		display: inline-block;
+		justify-content: center;
+		text-align: center;
 		padding-top:5px;
 	}
 	.contactflex{
