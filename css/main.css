@@ -1415,24 +1415,24 @@ padding-right: 15px;
 	}
 	.workflex{
 		display:flex;
+		justify-content: space-between;
 		flex-wrap: wrap;
 		padding-top:20px;
 		text-align:center;
 	}
 	.bocorwork{
-		width:50%;
-		padding-left:40px;
+		width:45%;
 		padding-top: 30px;
-		
+		margin-top: 0px;
 	}
 	.mambawork{
-		width:50%;
-		padding-left:40px;
+		width:45%;
+		margin-top: 0px;
 	}
 	.jswork{
-		width:50%;
-		padding-left:40px;
-		padding-top: 80px;
+		width:45%;
+		padding-top: 0px;
+		margin-top: 80px;
 	}
 	.bocorwork img{
 		width:100%;
@@ -1464,7 +1464,8 @@ padding-right: 15px;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
-		cursor: pointer;
+		margin-bottom: 20px;
+		
 	}
 	.bocorwork a{
 		text-decoration:none;
@@ -1563,17 +1564,17 @@ padding-right: 15px;
 		margin-bottom: 30px;
 	}
 	.bocorwork{
-		width:33.33%;
-		padding-left:40px;
+		width:30%;
+	
 		
 	}
 	.mambawork{
-		width:33.33%;
-		padding-left:40px;
+		width:30%;
+		
 	}
 	.jswork{
-		width:33.33%;
-		padding-left:40px;
+		width:30%;
+		margin-top: 0px;
 		padding-top: 30px;
 	}
 	.bocorwork img{
@@ -1975,7 +1976,7 @@ i:hover{
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
-		line-height: 50px;
+		line-height: 30px;
 		margin-bottom: 0px;
 		
 	}
