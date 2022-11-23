@@ -1965,54 +1965,61 @@ i:hover{
 	}
 	.contactflex{
 		display: flex;
-		flex-wrap: nowrap;
+		justify-content: space-around;
+		box-sizing: border-box;
 	}
 	
 	.addresscontact{
-		width: 25%;
+		width: 23%;
 		height: 175px;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
-		margin-left: 20px;
+		line-height: 50px;
+		margin-bottom: 0px;
+		
 	}
 	.listcontact{
-		width: 25%;
+		width: 23%;
 		height: 175px;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;	
 		padding: 20px;
 		line-height: 50px;
-		margin-left: 20px;
+		margin-bottom: 0px;
+		box-sizing: border-box;
+		
 	}
 	.listcontact2{
-		width: 25%;
+		width: 23%;
 		height: 175px;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
 		line-height: 50px;
-		margin-left: 20px;
+		margin-bottom: 0px;
+		
 		
 	}
 	.listcontact3{
-		width: 25%;
+		width: 23%;
 		height: 175px;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
 		line-height: 50px;
-		margin-left: 20px;
+		margin-bottom: 0px;
+		
 		
 	}
-	.addresscontact i{
+	.addresscontact a{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color: #2c1567;
 	}
 	.addresscontact h3{
-		font-size: 14px;
+		font-size: 12px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color: #444;
@@ -2027,7 +2034,7 @@ i:hover{
 		
 	}
 	.listcontact h3{
-		font-size: 14px;
+		font-size: 12px;
 		font-family: "Poppins", sans-serif;
 		color: #444;
 		
@@ -2041,7 +2048,7 @@ i:hover{
 		
 	}
 	.listcontact2 h3{
-		font-size: 14px;
+		font-size: 12px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color: #444;
@@ -2055,7 +2062,7 @@ i:hover{
 		text-decoration:none;
 	}
 	.listcontact3 h3{
-		font-size: 14px;
+		font-size: 12px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color: #444;
