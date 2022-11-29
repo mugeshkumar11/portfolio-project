@@ -11,7 +11,7 @@
 	padding-right: 15px;
 }
 .header{
-    background-color: #2c1567;
+    background-color: #00408b;
     height:68px;
     position:fixed;
     width:100%;
@@ -30,7 +30,7 @@ position: absolute;
 top: 8vh;
 right: 0%;
 width: 40vh;
-background-color: #2c1567;
+background-color:#00408b;
 flex-direction: column;
 height: 75vh;
 text-align: center;
@@ -95,7 +95,7 @@ transform: translateX(100%);
 .cvbtn button{
 	padding: 10px 20px;
 	margin-top: 15px;
-	background-color: #2c1567;
+	background-color: #00408b;
 	font-size:16px ;
 	color:white ;
 	cursor: pointer;
@@ -115,7 +115,7 @@ transform: translateX(100%);
 		padding-right: 15px;
 	}
 	.header{
-		background-color: #2c1567;
+		background-color: #00408b;
 		height:68px;
 		position:fixed;
 		width:100%;
@@ -138,7 +138,7 @@ transform: translateX(100%);
 	top: 6.6vh;
 	right: 0%;
 	width: 70vh;
-	background-color: #2c1567;
+	background-color:#00408b;
 	flex-direction: column;
 	height: 75vh;
 	text-align: center;
@@ -204,7 +204,7 @@ transform: translateX(100%);
 	.cvbtn button{
 		padding: 10px 20px;
 		margin-top: 15px;
-		background-color: #2c1567;
+		background-color:#00408b;
 		font-size:16px ;
 		color:white ;
 		cursor: pointer;
@@ -224,7 +224,7 @@ transform: translateX(100%);
 		padding-right: 15px;
 	}
 	.header{
-		background-color: #2c1567;
+		background-color: #00408b;
 		height:68px;
 		position:fixed;
 		width:100%;
@@ -283,7 +283,7 @@ transform: translateX(100%);
 	.cvbtn button{
 		padding: 10px 20px;
 		margin-top: 15px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		font-size:16px ;
 		color:white ;
 		cursor: pointer;
@@ -322,12 +322,12 @@ transform: translateX(100%);
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(#444, transparent);
+   
 }
 .bannercontent{
 	position:absolute;
 	top:60%;
-	right:4%;
+	left:4%;
 }
 .bannercontent h1{
 	font-size: 40px;
@@ -386,13 +386,13 @@ transform: translateX(100%);
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(#444, transparent);
+	
 		
 	}
 	.bannercontent{
 		position:absolute;
-		top:60%;
-		right:4%;
+		top:65%;
+	left:4%;
 	}
 	.bannercontent h1{
 		font-size: 50px;
@@ -449,13 +449,13 @@ transform: translateX(100%);
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background-image: linear-gradient(#444, transparent);
+		
 		
 	}
 	.bannercontent{
 		position:absolute;
-		top:40%;
-		right:4%;
+		top:60%;
+	left:4%;
 	}
 	.bannercontent h1{
 		font-size: 58px;
@@ -510,7 +510,7 @@ transform: translateX(100%);
 	color: #444;
 }
 .abouthrline{
-    border-bottom:3px solid #2c1567;
+    border-bottom:3px solid  #00408b;
 	display: inline-block;
 	justify-content: center;
 	text-align: center;
@@ -558,7 +558,7 @@ transform: translateX(100%);
     letter-spacing: 1px;
 	padding-bottom:10px;
 	font-family: "Poppins", sans-serif;
-	color:#2c1567;
+	color: #00408b;
 	font-weight:600;
 }
 .abouttext p{
@@ -571,7 +571,7 @@ transform: translateX(100%);
 .imagetext span {
 	font-size:20px;
 	font-weight: 700;
-	color: #2c1567;
+	color:  #00408b;
 }
 @media (min-width:768px){
 	.container{
@@ -597,7 +597,7 @@ transform: translateX(100%);
 		color: #444;
 	}
 	.abouthrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid  #00408b;
 		width:17%;
 		display: inline-block;
 	justify-content: center;
@@ -651,7 +651,7 @@ transform: translateX(100%);
 		letter-spacing: 1px;
 		padding-bottom:10px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color:  #00408b;
 		font-weight:600;
 	}
 	.abouttext p{
@@ -664,7 +664,7 @@ transform: translateX(100%);
 	.imagetext span {
 		font-size:20px;
 		font-weight: 700;
-		color:#2c1567;
+		color: #00408b;
 	}
 }
 @media (min-width:1024px){
@@ -691,7 +691,7 @@ transform: translateX(100%);
 		color: #444;
 	}
 	.abouthrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid  #00408b;
 		width:17%;
 		display: inline-block;
 	justify-content: center;
@@ -741,7 +741,7 @@ transform: translateX(100%);
 		letter-spacing: 1px;
 		padding-bottom:15px;
 		font-family: "Poppins", sans-serif;
-		color:#2c1567;
+		color: #00408b;
 		font-weight:600;
 	}
 	.abouttext p{
@@ -754,7 +754,7 @@ transform: translateX(100%);
 	.imagetext span {
 		font-size:20px;
 		font-weight: 700;
-		color:#2c1567;
+		color: #00408b;
 	}
 }
 /*about end */
@@ -782,7 +782,7 @@ padding-right: 15px;
 	color: #444;
 }
 .skilshrline{
-    border-bottom:3px solid #2c1567;
+    border-bottom:3px solid  #00408b;
 	width:15%;
 	display: inline-block;
 	justify-content: center;
@@ -807,7 +807,7 @@ padding-right: 15px;
 	height:100%;
 	padding:8px 8px;
 	border-radius:50%;
-	background-color: #2c1567;
+	background-color:  #00408b;
 	
 }
 .skilimage h2{
@@ -815,7 +815,7 @@ padding-right: 15px;
     font-weight: 600;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color: #444;
+	color:  #00408b;
 	transition: .3s;
 }
 .skilimage h2:hover {
@@ -850,7 +850,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.skilshrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid  #00408b;
 		width:15%;
 		display: inline-block;
 		justify-content: center;
@@ -874,7 +874,7 @@ padding-right: 15px;
 		height:100%;
 		padding:8px 8px;
 		border-radius:50%;
-		background-color: #2c1567;
+		background-color:  #00408b;
 		
 	}
 	.skilimage h2{
@@ -882,7 +882,7 @@ padding-right: 15px;
 		font-weight: 600;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #444;
+		color: #00408b;
 		padding-top:10px;
 		transition: .3s;
 	}
@@ -918,7 +918,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.skilshrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:15%;
 		display: inline-block;
 	justify-content: center;
@@ -942,7 +942,7 @@ padding-right: 15px;
 		height:100%;
 		padding:8px 8px;
 		border-radius:50%;
-		background-color: #2c1567;
+		background-color: #00408b;
 		
 	}
 	.skilimage h2{
@@ -950,7 +950,7 @@ padding-right: 15px;
 		font-weight: 600;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #444;
+		color: #00408b;
 		padding-top:10px;
 		transition: .3s;
 	}
@@ -986,7 +986,7 @@ padding-right: 15px;
 	color: #444;
 }
 .resumehrline{
-    border-bottom:3px solid #2c1567;
+    border-bottom:3px solid #00408b;
 	width:35%;
 	display: inline-block;
 	justify-content: center;
@@ -1007,49 +1007,49 @@ padding-right: 15px;
 	font-size: 28px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumecollege h3{
 	font-size: 22px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumecollege h4{
 	font-size: 18px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumecollege p{
 	font-size: 16px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumecollege p{
 	font-size: 16px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumetraining  h3{
 	font-size: 28px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 .resumetraining h4{
 	font-size: 16px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 }
 @media (min-width:768px){
@@ -1076,7 +1076,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.resumehrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:27%;
 		display: inline-block;
 		justify-content: center;
@@ -1101,49 +1101,49 @@ padding-right: 15px;
 		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege h3{
 		font-size: 22px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege h4{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege p{
 		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege p{
 		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumetraining  h3{
 		font-size: 28px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumetraining h4{
 		font-size: 16px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 }
@@ -1171,7 +1171,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.resumehrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:20%;
 		display: inline-block;
 		justify-content: center;
@@ -1195,35 +1195,35 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege h3{
 		font-size: 25px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege h4{
 		font-size: 20px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege p{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumecollege p{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumetraining{
@@ -1233,14 +1233,14 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 	.resumetraining h4{
 		font-size: 18px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 	}
 }
@@ -1270,7 +1270,7 @@ padding-right: 15px;
 	color: #444;
 }
 .workhrline{
-    border-bottom:3px solid #2c1567;
+    border-bottom:3px solid #00408b;
 	width:15%;
 	display: inline-block;
 	justify-content: center;
@@ -1313,13 +1313,13 @@ padding-right: 15px;
 	font-size: 32px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 	padding-top:15px
 }
 .bocorwork button{
 	padding:18px 28px;
-	background-color: #2c1567;
+	background-color: #00408b;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
@@ -1332,13 +1332,13 @@ padding-right: 15px;
 	font-size: 32px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 	padding-top:15px
 }
 .mambawork button{
 	padding:18px 28px;
-	background-color: #2c1567;
+	background-color:#00408b;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
@@ -1366,13 +1366,13 @@ padding-right: 15px;
 	font-size: 32px;
     letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color:  #2c1567;
+	color:  #00408b;
 	padding-bottom:10px;
 	padding-top:15px
 }
 .jswork button{
 	padding:18px 28px;
-	background-color: #2c1567;
+	background-color: #00408b;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
@@ -1406,7 +1406,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.workhrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:15%;
 		display: inline-block;
 		justify-content: center;
@@ -1454,13 +1454,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 		padding-top:15px
 	}
 	.bocorwork button{
 		padding:18px 28px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1475,13 +1475,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 		padding-top:15px
 	}
 	.mambawork button{
 		padding:18px 28px;
-		background-color:#2c1567;
+		background-color:#00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1509,13 +1509,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 		padding-top:15px
 	}
 	.jswork button{
 		padding:18px 28px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1550,7 +1550,7 @@ padding-right: 15px;
 		color: #444;
 	}
 	.workhrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:15%;
 		display: inline-block;
 		justify-content: center;
@@ -1597,13 +1597,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color: #00408b;
 		padding-bottom:10px;
 		padding-top:15px
 	}
 	.bocorwork button{
 		padding:15px 20px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1616,13 +1616,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:10px;
 		padding-top:15px
 	}
 	.mambawork button{
 		padding:15px 20px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1650,13 +1650,13 @@ padding-right: 15px;
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:  #2c1567;
+		color:  #00408b;
 		padding-bottom:13px;
 		padding-top:10px
 	}
 	.jswork button{
 		padding:15px 20px;
-		background-color: #2c1567;
+		background-color: #00408b;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
@@ -1693,7 +1693,7 @@ padding-right: 15px;
 	color: #444;
 }
 .contacthrline{
-	border-bottom:3px solid #2c1567;
+	border-bottom:3px solid #00408b;
 	width:15%;
 	display: inline-block;
 	justify-content: center;
@@ -1744,7 +1744,7 @@ padding-right: 15px;
 	font-size: 32px;
 	letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color: #2c1567;
+	color: #00408b;
 }
 .addresscontact h3{
 	font-size: 14px;
@@ -1757,7 +1757,7 @@ padding-right: 15px;
 	font-size: 32px;
 	letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color: #2c1567;
+	color: #00408b;
 	text-decoration:none;
 	
 }
@@ -1771,7 +1771,7 @@ padding-right: 15px;
 	font-size: 32px;
 	letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color: #2c1567;
+	color: #00408b;
 	text-decoration:none;
 	
 }
@@ -1786,7 +1786,7 @@ padding-right: 15px;
 	font-size: 32px;
 	letter-spacing: 1px;
 	font-family: "Poppins", sans-serif;
-	color: #2c1567;
+	color: #00408b;
 	text-decoration:none;
 }
 .listcontact3 h3{
@@ -1824,7 +1824,7 @@ i:hover{
 		color: #444;
 	}
 	.contacthrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:15%;
 		display: inline-block;
 		justify-content: center;
@@ -1876,7 +1876,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 	}
 	.addresscontact h3{
 		font-size: 14px;
@@ -1889,7 +1889,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 		text-decoration:none;
 		
 	}
@@ -1903,7 +1903,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color:#2c1567;
+		color:#00408b;
 		text-decoration:none;
 		
 	}
@@ -1918,7 +1918,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 		text-decoration:none;
 	}
 	.listcontact3 h3{
@@ -1957,7 +1957,7 @@ i:hover{
 		color: #444;
 	}
 	.contacthrline{
-		border-bottom:3px solid #2c1567;
+		border-bottom:3px solid #00408b;
 		width:15%;
 		display: inline-block;
 		justify-content: center;
@@ -2017,7 +2017,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 	}
 	.addresscontact h3{
 		font-size: 12px;
@@ -2030,7 +2030,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 		text-decoration:none;
 		
 	}
@@ -2044,7 +2044,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 		text-decoration:none;
 		
 	}
@@ -2059,7 +2059,7 @@ i:hover{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
-		color: #2c1567;
+		color: #00408b;
 		text-decoration:none;
 	}
 	.listcontact3 h3{
@@ -2081,7 +2081,7 @@ i:hover{
 	padding-right: 15px;
 }
 .legal {
-    background-color:#2c1567;
+    background-color:#00408b;
 }
 .legal-flex {
     display: flex;
@@ -2100,7 +2100,7 @@ i:hover{
 }
 .copyright a{
     text-decoration: none;
-    color:#515aa4;
+    color:#fff;
 	font-size: 23px;
 }
 @media (min-width:768px){
@@ -2111,7 +2111,7 @@ i:hover{
 		padding-right: 15px;
 	}
 	.legal {
-		background-color: #2c1567;
+		background-color: #00408b;
 	}
 	.legal-flex {
 		display: flex;
@@ -2130,7 +2130,7 @@ i:hover{
 	}
 	.copyright a{
 		text-decoration: none;
-		color: #515aa4;
+		color: #fff;
 		font-size: 23px;
 	}
 	
@@ -2143,7 +2143,7 @@ i:hover{
 		padding-right: 15px;
 	}
 	.legal {
-		background-color: #2c1567;
+		background-color: #00408b;
 	}
 	.legal-flex {
 		display: flex;
@@ -2161,7 +2161,7 @@ i:hover{
 	}
 	.copyright a{
 		text-decoration: none;
-		color:#515aa4;
+		color:#fff;
 		font-size: 23px;
 	}
 	
