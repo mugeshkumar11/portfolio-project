@@ -1226,9 +1226,9 @@ padding-right: 15px;
 		color:  #00408b;
 		padding-bottom:10px;
 	}
-	.resumetraining{
+	/* .resumetraining{
 		margin-left: 30px;
-	}
+	} */
 	.resumetraining  h3{
 		font-size: 32px;
 		letter-spacing: 1px;
@@ -1255,7 +1255,7 @@ padding-right: 15px;
 .work{
 	padding-top:20px;
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-	padding-bottom:50px;
+	
 }
 .workheading{
 	text-align:center;
@@ -1288,25 +1288,25 @@ padding-right: 15px;
 }
 .mambawork{
 	width:100%;
-	padding-top: 30px;
+	
 }
 .jswork{
 	width:100%;
-	padding-top: 30px;
+	
 }
 .bocorwork img{
 	width:100%;
-	height:80%;
+	height:auto;
 	border-radius:10px;
 }
 .mambawork img{
 	width:100%;
-	height:80%;
+	height:auto;
 	border-radius:10px;
 }
 .jswork img{
 	width:100%;
-	height:75%;
+	height:auto;
 	border-radius:10px;
 }
 .bocorwork h3{
@@ -1323,6 +1323,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 .bocorwork a{
 	text-decoration:none;
@@ -1342,6 +1343,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 .mambawork a{
 	text-decoration:none;
@@ -1376,6 +1378,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
+	margin-bottom: 20px;
 }
 .jswork a{
 	text-decoration:none;
@@ -1391,7 +1394,7 @@ padding-right: 15px;
 	.work{
 		padding-top:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-		padding-bottom:50px;
+		
 	}
 	.workheading{
 		text-align:center;
@@ -1422,31 +1425,29 @@ padding-right: 15px;
 	}
 	.bocorwork{
 		width:45%;
-		padding-top: 30px;
-		margin-top: 0px;
+		
 	}
 	.mambawork{
 		width:45%;
-		margin-top: 0px;
+		
 	}
 	.jswork{
 		width:45%;
-		padding-top: 0px;
-		margin-top: 80px;
+		
 	}
 	.bocorwork img{
 		width:100%;
-		height:80%;
+		height:auto;
 		border-radius:10px;
 	}
 	.mambawork img{
 		width:100%;
-		height:80%;
+		height:auto;
 		border-radius:10px;
 	}
 	.jswork img{
 		width:100%;
-		height:75%;
+		height:auto;
 		border-radius:10px;
 		
 	}
@@ -1534,7 +1535,6 @@ padding-right: 15px;
 	}
 	.work{
 		padding-top:20px;
-		margin-bottom: 30px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.workheading{
@@ -1562,6 +1562,7 @@ padding-right: 15px;
 		padding-top:20px;
 		text-align:center;
 		margin-bottom: 30px;
+		
 	}
 	.bocorwork{
 		width:30%;
@@ -1574,31 +1575,33 @@ padding-right: 15px;
 	}
 	.jswork{
 		width:30%;
-		margin-top: 0px;
-		padding-top: 30px;
+		
 	}
 	.bocorwork img{
 		width:100%;
-		height:78%;
+		height:auto;
 		border-radius:10px;
+		
 		
 	}
 	.mambawork img{
 		width:100%;
-		height:78%;
+		height:auto;
 		border-radius:10px;
+		
 	}
 	.jswork img{
 		width:100%;
-		height:78%;
+		height:auto;
 		border-radius:10px;
+		
 	}
 	.bocorwork h3{
 		font-size: 32px;
 		letter-spacing: 1px;
 		font-family: "Poppins", sans-serif;
 		color: #00408b;
-		padding-bottom:10px;
+		padding-bottom:15px;
 		padding-top:15px
 	}
 	.bocorwork button{
@@ -1706,7 +1709,7 @@ padding-right: 15px;
 
 .addresscontact{
 	width: 100%;
-	height: 175px;
+	height: auto;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	padding: 20px;
@@ -1714,7 +1717,7 @@ padding-right: 15px;
 }
 .listcontact{
 	width: 100%;
-	height: 175px;
+	height: auto;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;	
 	padding: 20px;
@@ -1723,7 +1726,7 @@ padding-right: 15px;
 }
 .listcontact2{
 	width: 100%;
-	height: 175px;
+	height:auto;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	padding: 20px;
@@ -1733,7 +1736,7 @@ padding-right: 15px;
 }
 .listcontact3{
 	width: 100%;
-	height: 175px;
+	height: auto;
 	text-align:center;
 	box-shadow: 0 0 20px #ccc;
 	padding: 20px;
@@ -1839,7 +1842,7 @@ i:hover{
 	
 	.addresscontact{
 		width: 45%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
@@ -1847,7 +1850,7 @@ i:hover{
 	}
 	.listcontact{
 		width: 45%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;	
 		padding: 20px;
@@ -1855,7 +1858,7 @@ i:hover{
 	}
 	.listcontact2{
 		width: 45%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
@@ -1865,7 +1868,7 @@ i:hover{
 	}
 	.listcontact3{
 		width: 45%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
@@ -1972,7 +1975,7 @@ i:hover{
 	
 	.addresscontact{
 		width: 23%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
@@ -1982,7 +1985,7 @@ i:hover{
 	}
 	.listcontact{
 		width: 23%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;	
 		padding: 20px;
@@ -1993,7 +1996,7 @@ i:hover{
 	}
 	.listcontact2{
 		width: 23%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
@@ -2004,7 +2007,7 @@ i:hover{
 	}
 	.listcontact3{
 		width: 23%;
-		height: 175px;
+		height: auto;
 		text-align:center;
 		box-shadow: 0 0 20px #ccc;
 		padding: 20px;
