@@ -494,12 +494,11 @@ transform: translateX(100%);
 	padding-right: 15px;
 }
 .about{
-	padding-top:20px;
+	padding:20px;
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .aboutheading{
 	text-align:center;
-	margin-top:15px;
 	margin-bottom:15px;
 }
 .aboutheading h2{
@@ -519,7 +518,7 @@ transform: translateX(100%);
 }
 .aboutflex{
 	width:100%;
-	margin-top:30px;
+	
 }
 .aboutimage{
 	width:100%;
@@ -566,7 +565,7 @@ transform: translateX(100%);
     letter-spacing: 1px;
 	line-height:20px;
 	font-family: "open-sans", sans-serif;
-	padding-bottom:15px;
+	
 }
 .imagetext span {
 	font-size:20px;
@@ -581,12 +580,12 @@ transform: translateX(100%);
 	    padding-right: 15px;
 	}
 	.about{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.aboutheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.aboutheading h2{
@@ -675,12 +674,12 @@ transform: translateX(100%);
 	    padding-right: 15px;
 	}
 	.about{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.aboutheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.aboutheading h2{
@@ -765,13 +764,12 @@ padding-left: 15px;
 padding-right: 15px;
 }
 .skils{
-	padding-top:20px;
+	padding:20px;
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-	padding-bottom:50px;
+
 }
 .skilsheading{
 	text-align:center;
-	margin-top:15px;
 	margin-bottom:15px;
 }
 .skilsheading h2{
@@ -792,7 +790,6 @@ padding-right: 15px;
 .skilsflex{
 	display:flex;
 	flex-wrap: wrap;
-	padding-top:20px;
 	text-align:center;
 	justify-content: space-around;
 }
@@ -833,13 +830,13 @@ padding-right: 15px;
 		
 	}
 	.skils{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-		padding-bottom:50px;
+	
 	}
 	.skilsheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.skilsheading h2{
@@ -859,7 +856,7 @@ padding-right: 15px;
 	}
 	.skilsflex{
 		display:flex;
-		padding-top:20px;
+		
 		text-align:center;
 		justify-content: space-around;
 	}
@@ -901,13 +898,13 @@ padding-right: 15px;
 	    padding-right: 15px;
 	}
 	.skils{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-		padding-bottom:50px;
+		
 	}
 	.skilsheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.skilsheading h2{
@@ -928,7 +925,7 @@ padding-right: 15px;
 	.skilsflex{
 		display:flex;
 		justify-content: space-around;
-		padding-top:20px;
+		
 		text-align:center;
 	}
 	.skilimage{
@@ -970,12 +967,12 @@ padding-right: 15px;
 	padding-right: 15px;
 }
 .resume{
-	padding-top:20px;
+	padding:20px;
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 }
 .resumeheading{
 	text-align:center;
-	margin-top:15px;
+	
 	margin-bottom:15px;
 }
 .resumeheading h2{
@@ -1060,12 +1057,12 @@ padding-right: 15px;
 	    padding-right: 15px;
 	}
 	.resume{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.resumeheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.resumeheading h2{
@@ -1155,12 +1152,12 @@ padding-right: 15px;
 	    padding-right: 15px;
 	}
 	.resume{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.resumeheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.resumeheading h2{
@@ -1253,13 +1250,13 @@ padding-right: 15px;
 	padding-right: 15px;
 }
 .work{
-	padding-top:20px;
+	padding:20px;
     background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	
 }
 .workheading{
 	text-align:center;
-	margin-top:15px;
+	
 	margin-bottom:15px;
 }
 .workheading h2{
@@ -1279,20 +1276,21 @@ padding-right: 15px;
 }
 .workflex{
 	
-	padding-top:20px;
+	/* padding-top:20px; */
 	text-align:center;
 }
 .bocorwork{
 	width:100%;
+	margin-bottom: 15px;
 	
 }
 .mambawork{
 	width:100%;
-	
+	margin-bottom: 15px;
 }
 .jswork{
 	width:100%;
-	
+	margin-bottom: 15px;
 }
 .bocorwork img{
 	width:100%;
@@ -1323,7 +1321,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
-	margin-bottom: 20px;
+	
 }
 .bocorwork a{
 	text-decoration:none;
@@ -1343,7 +1341,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
-	margin-bottom: 20px;
+	
 }
 .mambawork a{
 	text-decoration:none;
@@ -1378,7 +1376,7 @@ padding-right: 15px;
 	border-radius:10px;
 	border:none;
 	font-size: 16px;
-	margin-bottom: 20px;
+	
 }
 .jswork a{
 	text-decoration:none;
@@ -1392,13 +1390,13 @@ padding-right: 15px;
 	    padding-right: 15px;
 	}
 	.work{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 		
 	}
 	.workheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.workheading h2{
@@ -1465,7 +1463,7 @@ padding-right: 15px;
 		border-radius:10px;
 		border:none;
 		font-size: 16px;
-		margin-bottom: 20px;
+		
 		
 	}
 	.bocorwork a{
@@ -1534,12 +1532,12 @@ padding-right: 15px;
 	    padding-right: 15px;
 	}
 	.work{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
 	}
 	.workheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.workheading h2{
@@ -1559,9 +1557,8 @@ padding-right: 15px;
 	}
 	.workflex{
 		display:flex;
-		padding-top:20px;
 		text-align:center;
-		margin-bottom: 30px;
+	
 		
 	}
 	.bocorwork{
@@ -1679,13 +1676,13 @@ padding-right: 15px;
 	padding-right: 15px;
 }
 .contact{
-	padding-top:20px;
+	padding:20px;
 	background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-	padding-bottom:20px;
+	
 }
 .contactheading{
 	text-align:center;
-	margin-top:15px;
+	
 	margin-bottom:15px;
 }
 .contactheading h2{
@@ -1741,7 +1738,7 @@ padding-right: 15px;
 	box-shadow: 0 0 20px #ccc;
 	padding: 20px;
 	line-height: 50px;
-	margin-bottom: 20px;
+	
 }
 .addresscontact i{
 	font-size: 32px;
@@ -1810,13 +1807,13 @@ i:hover{
 	    padding-right: 15px;
 	}
 	.contact{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-		padding-bottom:20px;
+		
 	}
 	.contactheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.contactheading h2{
@@ -1943,13 +1940,13 @@ i:hover{
 	    padding-right: 15px;
 	}
 	.contact{
-		padding-top:20px;
+		padding:20px;
 		background: linear-gradient(180deg, #f2f6f9 0%, #fff 100%);
-		padding-bottom:50px;
+		
 	}
 	.contactheading{
 		text-align:center;
-		margin-top:15px;
+		
 		margin-bottom:15px;
 	}
 	.contactheading h2{
